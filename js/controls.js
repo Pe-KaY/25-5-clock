@@ -5,7 +5,7 @@ const controls = () => {
   let breakCountRunning = false
 
   //   alarm
-  const alarm = new Audio("public/alarm.wav")
+  const alarm = new Audio("../public/alarm.wav")
   // break length and session length timer display divs
   const displayBreakTimer = document.getElementById("breakCtn__breakTime")
   const displaySessionTimer = document.getElementById("sessionCtn__sessionTime")
