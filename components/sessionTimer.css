@@ -1,0 +1,67 @@
+#sessionTimer_wrapper {
+  border: 6px solid #4b4453;
+  text-align: center;
+  width: 45%;
+  margin: auto;
+  padding-block: 1rem 2rem;
+  font-size: 1.1rem;
+  border-radius: 50px;
+}
+#countDownTime {
+  font-size: 6rem;
+  margin: auto;
+  margin-block-start: 1rem;
+  width: 80%;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.alarm {
+  animation: 1s shakeX;
+}
+
+@keyframes shakeX {
+  from,
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: translate3d(-10px, 0, 0);
+  }
+
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: translate3d(10px, 0, 0);
+  }
+}
+
+@media (max-width: 640px) {
+  #sessionTimer_wrapper {
+    width: 50%;
+    height: fit-content;
+  }
+  #countDownTime {
+    font-size: 2rem;
+    height: 1rem;
+  }
+}
+@media (max-width: 475px) {
+  #sessionTimer_wrapper {
+    width: 90%;
+    height: 8rem;
+  }
+  #countDownTime {
+    font-size: 2rem;
+    height: 2rem;
+  }
+}

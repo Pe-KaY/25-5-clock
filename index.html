@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/b1d08ee4bb.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>25 + 5 Clock</title>
+  </head>
+  <body>
+    <div id="container">
+      <h1>25 + 5 Clock</h1>
+      <div id="controls">
+        <div id="breakCtn">
+          <h2 id="break-length">Break Length</h2>
+          <div class="breakCtn__controls">
+            <button class="breakCtn__button-down">
+              <i class="fa-solid fa-arrow-down fa-2x"></i>
+            </button>
+            <div id="breakCtn__breakTime"></div>
+            <button class="breakCtn__button-up">
+              <i class="fa-solid fa-arrow-up fa-2x"></i>
+            </button>
+          </div>
+        </div>
+        <div id="sessionCtn">
+          <h2 id="session-length">Session Length</h2>
+          <div class="breakCtn__controls">
+            <button class="sessionCtn__button-down">
+              <i class="fa-solid fa-arrow-down fa-2x"></i>
+            </button>
+            <div id="sessionCtn__sessionTime"></div>
+            <button class="sessionCtn__button-up">
+              <i class="fa-solid fa-arrow-up fa-2x"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div id="sessionTimer_wrapper">
+        <h2 id="sessionheader">Session</h2>
+        <div id="countDownTime">
+          <span id="timeLeft">12</span>
+          :
+          <span id="timeRight">52</span>
+        </div>
+      </div>
+      <div id="playPauseRestart">
+        <button class="pausePlay">
+          <i class="fa-solid fa-play"></i>
+          <i class="fa-solid fa-pause"></i></button
+        ><button class="reset">
+          <i class="fa-solid fa-repeat"></i>
+        </button>
+      </div>
+      <p id="footertext">Coded by <span>Paa Kwesi Ephraim</span></p>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

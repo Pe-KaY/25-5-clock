@@ -1,0 +1,9 @@
+#playPauseRestart {
+  width: 30%;
+  margin: auto;
+  font-size: 2rem;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-block-start: 1rem;
+}
