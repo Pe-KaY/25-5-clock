@@ -1,3 +1,4 @@
+import sound from "../assets/clock-alarm-8761.mp3"
 const controls = () => {
   // Global flag to check if timer is running
   let countDownRunning = false
@@ -5,7 +6,7 @@ const controls = () => {
   let breakCountRunning = false
 
   //   alarm
-  const alarm = new Audio("assets/clock-alarm-8761.mp3")
+  const alarm = new Audio(sound)
   // break length and session length timer display divs
   const displayBreakTimer = document.getElementById("breakCtn__breakTime")
   const displaySessionTimer = document.getElementById("sessionCtn__sessionTime")
